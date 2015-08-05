@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\Project_Joco.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{E70204F5-A7F1-4D89-B926-29DFC57D7EEA}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\Project_Joco.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\Project_JocoEditor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{BCDA8B30-6EE3-449F-B319-5EEC5D63D343}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultInput.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Source\Project_Joco">
+			<UniqueIdentifier>{63CBF56F-2098-400F-A75C-154D9C70F949}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\Project_Joco\Project_Joco.Build.cs">
+			<Filter>Source\Project_Joco</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\Project_Joco\Project_Joco.cpp">
+			<Filter>Source\Project_Joco</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Project_Joco\Project_Joco.h">
+			<Filter>Source\Project_Joco</Filter>
+		</ClInclude >
+		<Filter Include="Source\Project_Joco\Private">
+			<UniqueIdentifier>{DFED8435-04ED-45DF-A158-948D57D0C35C}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\Source\Project_Joco\Private\MyActor.cpp">
+			<Filter>Source\Project_Joco\Private</Filter>
+		</ClCompile >
+		<Filter Include="Source\Project_Joco\Public">
+			<UniqueIdentifier>{48392BDD-78D8-49A8-8550-BA09AA7BF9E5}</UniqueIdentifier>
+		</Filter>
+		<ClInclude Include="..\..\Source\Project_Joco\Public\MyActor.h">
+			<Filter>Source\Project_Joco\Public</Filter>
+		</ClInclude >
+	</ItemGroup>
+</Project>
